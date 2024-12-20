@@ -10,7 +10,11 @@ namespace Metotlar
     {
         static void Main(string[] args)
         {
+            Ogrenci ogrenci = new Ogrenci();
 
+            ogrenci.selamla();
+
+            ogrenci.OgrenciMetot("Halil", "Özcan");
         }
     }
 }
